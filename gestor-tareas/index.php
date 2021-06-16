@@ -24,6 +24,14 @@
             echo 'Bienvenido a casa';
             break;
           
+          case 'registro':
+            require_once 'view/registro.php';
+            break;
+          
+          case 'inicio-sesion':
+            require_once 'view/inicio-sesion.php';
+            break;
+          
           case 'error':
             echo 'Error 404';
             break;

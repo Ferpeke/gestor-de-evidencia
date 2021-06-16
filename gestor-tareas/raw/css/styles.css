@@ -1,0 +1,25 @@
+body {
+  background-image: url(https://picsum.photos/3840/2160);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.fondo_formularios {
+  color: white;
+  background-color: #202020;
+}
+.divisor_horizontal {
+  border-color: white;
+}
+.botones {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.botones:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 1.0);
+}
+.redondeado{
+  border-radius: 25px;
+}
