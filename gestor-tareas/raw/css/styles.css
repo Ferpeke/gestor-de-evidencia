@@ -23,3 +23,13 @@ body {
 .redondeado{
   border-radius: 25px;
 }
+
+.links {
+  color: rgba(255, 255, 255, 0.3);
+}
+.links:hover {
+  color: white;
+}
+.barra{
+  background-color: black;
+}

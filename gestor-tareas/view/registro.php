@@ -9,7 +9,7 @@
             </div>
           </div>
           <hr class="divisor_horizontal">
-          <div class="row">
+          <div class="row" id="registro">
             <div class="col-md-6">
               <div class="container">
                 <div class="row">
@@ -90,3 +90,4 @@
     </div>
   </div>
 </div>
+<script src="../manager/registro.js"></script>

@@ -20,28 +20,21 @@
       
       if (isset($_GET['vista'])) {
         switch ($_GET['vista']) {
-          case 'home':
-            echo 'Bienvenido a casa';
-            break;
-          
           case 'registro':
             require_once 'view/registro.php';
             break;
-          
-          case 'inicio-sesion':
+        case 'inicio-sesion':
             require_once 'view/inicio-sesion.php';
             break;
-          
-          case 'error':
-            echo 'Error 404';
+        case 'test-conexion':
+            require_once 'app/conexion.php';
             break;
-          
-          default:
+        default:
             echo 'Error 404';
             break;
         }
       } else{
-        echo 'estas en el index';
+        header('location:inicio-sesion');
       }
       
       
