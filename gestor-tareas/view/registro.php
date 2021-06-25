@@ -9,7 +9,7 @@
             </div>
           </div>
           <hr class="divisor_horizontal">
-          <div class="row" id="registro">
+          <div class="row">
             <div class="col-md-6">
               <div class="container">
                 <div class="row">
