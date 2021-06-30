@@ -6,12 +6,19 @@
         "sexo" => $_POST['sexo'],
         "nacimiento" => $_POST['fecha_nacimiento'],
         "email" => $_POST['email'],
-        "contrasenia" => sha1($_POST['contrasenia']),
+        "contrasenia" => sha1($_POST['contrasenia'])
     );
 
     require_once 'Usuario.php';
     $usuario = new Usuario();
 
     $respuesta = $usuario->insertar($datos);
+    if($respuesta){
+        
+        echo 1;
+
+    } else {
+        echo 2;
+    }
     return $respuesta;
 ?>

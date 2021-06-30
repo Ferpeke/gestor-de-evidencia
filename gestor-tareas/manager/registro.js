@@ -69,9 +69,22 @@ $(document).ready(() => {
                       $.ajax({
                         url : "control/control-registro.php",
                         data : $('#registro').serialize(),
-                        type : "post",
+                        type : "POST",
                         success : (respuesta) => {
-                            console.log(respuesta);
+                            if (respuesta) {
+                              Swal.fire({
+                                icon: 'success',
+                                title: '¡Genial!',
+                                text: 'Usuario registrado.',
+                                background: '#202020'
+                              });
+
+                              setTimeout(() => {
+                                window.location = "inicio-sesion";
+                              }, 2e000);
+
+
+                            }
                         }
                       });
                     } else {

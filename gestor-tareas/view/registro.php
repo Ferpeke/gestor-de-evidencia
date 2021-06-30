@@ -1,7 +1,7 @@
 <div class="container mt-3">
   <div class="row justify-content-center">
     <div class="col-md-8">
-      <form class="shadow p-4 rounded-bottom fondo_formularios">
+      <form id="registro" class="shadow p-4 rounded-bottom fondo_formularios">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
@@ -66,13 +66,13 @@
                   <div class="col-md-6">
                     <div class="form-group">
                       <label for="contrasenia"><i class="fas fa-lock mr-2"></i>Contraseña:</label>
-                      <input type="text" class="form-control form-control-sm redondeado" id="contrasenia" name="contrasenia" placeholder="Ingresar contraseña">
+                      <input type="password" class="form-control form-control-sm redondeado" id="contrasenia" name="contrasenia" placeholder="Ingresar contraseña">
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
                       <label for="confirmar_contrasenia"><i class="fas fa-lock mr-2"></i>Contraseña:</label>
-                      <input type="text" class="form-control form-control-sm redondeado" id="confirmar_contrasenia" name="confirmar_contrasenia" placeholder="Ingresar contraseña">
+                      <input type="password" class="form-control form-control-sm redondeado" id="confirmar_contrasenia" name="confirmar_contrasenia" placeholder="Ingresar contraseña">
                     </div>
                   </div>
                 </div>
@@ -90,4 +90,4 @@
     </div>
   </div>
 </div>
-<script src="../manager/registro.js"></script>
+<script src="../../../Clases_del_memos_ferchote/gestor-tareas/manager/registro.js"></script>

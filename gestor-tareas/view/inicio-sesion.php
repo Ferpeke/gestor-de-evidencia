@@ -39,5 +39,6 @@
       </form>
     </div>
   </div>
+  <img src="" alt="" width="">
 </div>
 <script src="manager/inicio-sesion.js"></script>
